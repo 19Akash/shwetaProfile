@@ -2,14 +2,12 @@
     /* background: linear-gradient(159deg,rgba(37,37,50,.98) 0,rgba(35,35,45,.98) 100%); */
     /* width: 100vh; */
     background-color: #191923;
-    height: 100vh;
     padding:1%;
 }
 .header{
-    width: 80%;
+    width: 100%;
 }
 .header {
-    height: 42.7%;
     margin-left: 0.5%;
     background-image: url(../images/sports-physio.png);
     animation-name: example;
@@ -26,7 +24,7 @@
 
   .innerContent{
     background: rgba(0, 0, 0, 0.5);
-    height: 94%;
+   
     top:0;
     padding: 1%;
   }

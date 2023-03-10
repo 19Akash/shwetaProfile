@@ -15,7 +15,7 @@ export const Profile = () => {
     return (
         <div className='mainscreen' style={{ display: "flex" }}>
             <div className='sideNav'>
-                <img style={{ width: "80%", height:"10%", borderRadius:"40rem" }} src={profileImage} alt='profileImage'></img>
+                <img style={{ width: "10rem", height:"10rem", borderRadius:"40rem" }} src={profileImage} alt='profileImage'></img>
                 <div style={{ color: "#fafafc", marginTop: "10%", fontSize: "70%", fontWeight:"bold" }}>Dr. Pt Shweta Sharma</div>
                 <div style={{ color: "#8c8c8e", marginTop: "12%", fontSize: "70%", fontWeight:"bold" }}>BPT, MPT ( cardio-pulmonary ), DCPT</div>
                 <div style={{ color: "#8c8c8e", fontSize: "70%", fontWeight:"bold" }}>Consultant Physiotherapist</div>
@@ -50,12 +50,13 @@ export const Profile = () => {
                 </div>
 
             </div>
+            <div>
             <div className='header'>
                 <div className='innerContent'>
                     <div className='profileContent'>
                         <div style={{ width: '69%' }}>
                             <div class="typewriter">
-                                <h1>Hey! This is Dr. Pt Shweta Sharma.</h1>
+                                <h1>Hey! I am Dr. Pt. Shweta Sharma.</h1>
                             
                             </div>
                         </div>
@@ -64,7 +65,8 @@ export const Profile = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{marginTop:"2%", display:'flex', justifyContent:"center", alignItems:'center', width:"100%"}}>
+            </div>
+            <div style={{marginTop:"2%", display:'flex', justifyContent:"center", alignItems:'center', width:"100%"}}>
                     <div style={{display:"flex", justifyContent:"center", alignItems:'center',width:"30%" }}>
                         <div style={{color: '#ffc107', marginRight:'2%', fontSize:"22px", fontWeight:"bold"}}>2 +</div>
                         <div style={{color: 'white'}}>Years Experience</div>
@@ -78,8 +80,9 @@ export const Profile = () => {
                         <div style={{color: 'white'}}>Happy Patents</div>
                     </div>
                 </div>
-            </div>
-            
+                <hr style={{ width: "100%", backgroundColor: '#8c8c8e', height: '1px', border: 'none', marginTop: "2rem" }}></hr>
+                <div style={{fontSize:"17", fontWeight:"bold", color:"white", margin:"1%"}}>My Services</div>
+          </div>
         </div>
     )
 }
