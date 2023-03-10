@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shwetaProfile/static/css/main.232f52f1.css",
-    "main.js": "/shwetaProfile/static/js/main.c833a11e.js",
+    "main.js": "/shwetaProfile/static/js/main.a347983f.js",
     "static/js/787.f2a0fa2f.chunk.js": "/shwetaProfile/static/js/787.f2a0fa2f.chunk.js",
     "static/media/sports-physio.png": "/shwetaProfile/static/media/sports-physio.65cc9502b1557f127d86.png",
     "static/media/result.png": "/shwetaProfile/static/media/result.47bae5849447eca359b6.png",
@@ -12,11 +12,11 @@
     "static/media/sports-physiotherapy-illustration_23-2150076880.avif": "/shwetaProfile/static/media/sports-physiotherapy-illustration_23-2150076880.a34ace4a45bfe5638110.avif",
     "index.html": "/shwetaProfile/index.html",
     "main.232f52f1.css.map": "/shwetaProfile/static/css/main.232f52f1.css.map",
-    "main.c833a11e.js.map": "/shwetaProfile/static/js/main.c833a11e.js.map",
+    "main.a347983f.js.map": "/shwetaProfile/static/js/main.a347983f.js.map",
     "787.f2a0fa2f.chunk.js.map": "/shwetaProfile/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.232f52f1.css",
-    "static/js/main.c833a11e.js"
+    "static/js/main.a347983f.js"
   ]
 }
