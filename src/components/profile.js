@@ -15,21 +15,21 @@ export const Profile = () => {
     return (
         <div className='mainscreen' style={{ display: "flex" }}>
             <div className='sideNav'>
-                <img style={{ width: "80%", height:"20%", borderRadius:"40rem" }} src={profileImage} alt='profileImage'></img>
-                <div style={{ color: "#fafafc", marginTop: "10%", fontSize: "15px" }}>Dr. Pt Shweta Sharma</div>
-                <div style={{ color: "#8c8c8e", marginTop: "12%", fontSize: "15px" }}>BPT, MPT ( cardio-pulmonary ), DCPT</div>
-                <div style={{ color: "#8c8c8e", fontSize: "15px" }}>Consultant Physiotherapist</div>
+                <img style={{ width: "80%", height:"10%", borderRadius:"40rem" }} src={profileImage} alt='profileImage'></img>
+                <div style={{ color: "#fafafc", marginTop: "10%", fontSize: "70%", fontWeight:"bold" }}>Dr. Pt Shweta Sharma</div>
+                <div style={{ color: "#8c8c8e", marginTop: "12%", fontSize: "70%", fontWeight:"bold" }}>BPT, MPT ( cardio-pulmonary ), DCPT</div>
+                <div style={{ color: "#8c8c8e", fontSize: "70%", fontWeight:"bold" }}>Consultant Physiotherapist</div>
                 <hr style={{ width: "100%", backgroundColor: '#8c8c8e', height: '1px', border: 'none', marginTop: "2rem" }}></hr>
                 <div style={{ width: "100%", display: "flex", marginTop: "1rem", backgroundColor: "#191923", padding: "4%" }}>
                     <div style={{ width: '50%', display: "flex", flexDirection: "column", color: "white" }}>
-                        <div style={{ margin: "2%", fontSize: "15px" }}>Residence</div>
-                        <div style={{ margin: "2%", fontSize: "15px" }}>City</div>
-                        <div style={{ margin: "2%", fontSize: "15px" }}>Age</div>
+                        <div style={{ margin: "2%", fontSize: "15px", fontWeight:"bold" }}>Residence</div>
+                        <div style={{ margin: "2%", fontSize: "15px" , fontWeight:"bold"}}>City</div>
+                        <div style={{ margin: "2%", fontSize: "15px" , fontWeight:"bold"}}>Age</div>
                     </div>
                     <div style={{ width: '50%', display: "flex", flexDirection: "column", justifyContent: "right", alignItems: "end", color: "#8c8c8e" }}>
-                        <div style={{ margin: "2%", fontSize: "15px" }}>India</div>
-                        <div style={{ margin: "2%", fontSize: "15px" }}>Delhi</div>
-                        <div style={{ margin: "2%", fontSize: "15px" }}>24</div>
+                        <div style={{ margin: "2%", fontSize: "15px" , fontWeight:"bold"}}>India</div>
+                        <div style={{ margin: "2%", fontSize: "15px" , fontWeight:"bold"}}>Delhi</div>
+                        <div style={{ margin: "2%", fontSize: "15px" , fontWeight:"bold"}}>24</div>
                     </div>
                 </div>
                 <hr style={{ width: "100%", backgroundColor: '#8c8c8e', height: '1px', border: 'none', marginTop: "2rem" }}></hr>
